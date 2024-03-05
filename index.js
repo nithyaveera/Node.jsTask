@@ -23,12 +23,12 @@ app.get('/', (req, res) => {
                         margin-bottom: 20px;
                     }
                     #end{
-                        color:#5E5241
+                        color:#A1505D
                     }
                 </style>
             </head>
             <body>
-                <div class="timestamp">Current Date and Time: ${current_date} </div>
+                <div class="timestamp">Current TimeStamp: ${current_date} </div>
                 <div class="timestamp">To Retrieve All TimeStamp Data Change API Endpoint to <span id='end'>/read </span></div>
 
             </body>
